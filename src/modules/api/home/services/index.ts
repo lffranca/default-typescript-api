@@ -1,0 +1,1 @@
+export const verifyData = (data) => data;
