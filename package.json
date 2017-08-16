@@ -4,7 +4,8 @@
   "description": "Api default typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "development": "tsc && NODE_ENV=development PORT=3000 nodemon ./build/"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/lffranca/default-typescript-api#readme",
   "devDependencies": {
+    "nodemon": "^1.11.0",
     "typescript": "^2.4.2"
   },
   "dependencies": {

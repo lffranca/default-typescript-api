@@ -1,8 +1,8 @@
-import express from 'express'
-import auth from '../modules/api/home/router';
+import * as express from 'express'
+import home from '../modules/api/home/router';
 
 const app = express();
 
-app.use('/auth', auth);
+app.use('/', home);
 
 export default app

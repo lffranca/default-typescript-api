@@ -1,7 +1,7 @@
-import express from 'express'
-import bodyParser from 'body-parser'
-import morgan from 'morgan'
-import cors from 'cors'
+import * as express from 'express'
+import * as bodyParser from 'body-parser'
+import * as morgan from 'morgan'
+import * as cors from 'cors'
 
 const app = express()
 
