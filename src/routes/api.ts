@@ -1,8 +1,8 @@
 import * as express from 'express'
-import home from '../modules/api/home/router';
+import home from '../modules/api/home/router'
 
-const app = express();
+const app = express()
 
-app.use('/', home);
+app.use('/', home)
 
 export default app

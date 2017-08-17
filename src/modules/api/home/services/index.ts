@@ -1,1 +1,1 @@
-export const verifyData = (data) => data;
+export const verifyData = (data) => data
